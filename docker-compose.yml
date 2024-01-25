@@ -1,0 +1,8 @@
+services:
+  web:
+    image: php:7.4-apache
+    container_name: exo3
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "9000:80"
