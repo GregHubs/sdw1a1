@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: php:7.4-apache
+    container_name: sdw1a1-container
+    volumes:
+      - ./chemin/vers/votre/projet:/var/www/html
+    ports:
+      - "9000:80"
