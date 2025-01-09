@@ -2,10 +2,10 @@
 <html>
 <head>
    <title></title>
-   <link rel="stylesheet" type="text/css" href="styles.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-   <h1><?php echo "hello"?></h1>
+   <h1><?php echo "Clément Riquet"?></h1>
 </body>
 </html>
 
